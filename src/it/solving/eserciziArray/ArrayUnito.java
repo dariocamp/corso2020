@@ -16,11 +16,11 @@ public class ArrayUnito {
 
 	public static void main(String[] args) {
 
-		int[] primoArray = { 1, 2, 3, 4 };
-		int[] secondoArray = { 5, 6, 7, 8 };
+		int[] primoArrayProva = { 1, 2, 3, 4 };
+		int[] secondoArrayProva = { 5, 6, 7, 8 };
 
 		for (int i = 0; i < primoArray.length + secondoArray.length; i++) {
-			System.out.println(ArrayUnito.creaUnione(primoArray, secondoArray)[i]);
+			System.out.println(ArrayUnito.creaUnione(primoArrayProva, secondoArrayProva)[i]);
 		}
 
 	}
